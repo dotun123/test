@@ -2,14 +2,13 @@
 display: flex;
 justify-content: center;
 align-items: center;
-height: 50vh;
+height: 350px;
 width:300px;
 font-family: var(--font-family);
 margin: auto;
 margin-top: 150px;
-    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
     border-radius: 28px;
-    background-color: hsl(221, 100%, 96%);background-color: hsl(221, 100%, 96%);
+    background-color: hsl(221, 100%, 96%);
 
 }
 
@@ -52,16 +51,24 @@ border: 0;
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .mila__content {
        position: relative;
        z-index: -1;
-    }
+    
+        height: 100%;
       
-}
+        
+    }
+
+
+     
+
 .mila__navbar-menu_container{
     position: absolute;
     top: 20px;
+}
+
 }
 
 
