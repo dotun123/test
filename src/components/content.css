@@ -1,0 +1,68 @@
+.mila__content{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+width:300px;
+font-family: var(--font-family);
+margin: auto;
+margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+    border-radius: 28px;
+    background-color: hsl(221, 100%, 96%);background-color: hsl(221, 100%, 96%);
+
+}
+
+ .btn {
+    height: 50px;
+width: 270px;
+margin-top:50px ;
+border-radius: 20px;
+color: white;
+background-color: var(--color-text);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+border: 0;
+}
+
+.btn:hover{
+    background-color:var(--color-content);
+}
+
+
+.mila__arrow{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 1px;
+    z-index: 1;
+    
+}
+
+.mila__content .settings{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    bottom: 20px;
+    position: relative;
+}
+
+
+
+@media (max-width: 1000px) {
+    .mila__content {
+       position: relative;
+       z-index: -1;
+    }
+      
+}
+.mila__navbar-menu_container{
+    position: absolute;
+    top: 20px;
+}
+
+
+
