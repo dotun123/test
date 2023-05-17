@@ -5,9 +5,10 @@ align-items: center;
 height: 350px;
 width:300px;
 font-family: var(--font-family);
+box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
 margin: auto;
 margin-top: 150px;
-    border-radius: 28px;
+    border-radius: 25px;
     background-color: hsl(221, 100%, 96%);
 
 }
@@ -15,7 +16,7 @@ margin-top: 150px;
  .btn {
     height: 50px;
 width: 270px;
-margin-top:50px ;
+margin-top:40px ;
 border-radius: 20px;
 color: white;
 background-color: var(--color-text);
@@ -23,6 +24,7 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 18px;
 border: 0;
+cursor: pointer;
 }
 
 .btn:hover{
@@ -35,18 +37,39 @@ border: 0;
     justify-content: center;
     position: relative;
     display: flex;
-    height: 1px;
+    height: 0px;
     z-index: 1;
-    
+    cursor: pointer;
 }
 
-.mila__content .settings{
+.mila__content .settings {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: row;
-    bottom: 20px;
+ float: right;
+ cursor: pointer;
+    margin-bottom: 50px;
+   width: 9%;
+  top: -1.8px;
     position: relative;
+   
+ 
+}
+
+.mila__content .settings:hover{
+    color: var(--color-content);
+
+}
+
+
+.mila__content .card p{
+   display: flex;
+width: 30%;
+    float: left;
+   bottom: 20px;
+position: relative;
+    font-size: 19px;
+    font-family: var(--font-family);
+    cursor: pointer;
+
 }
 
 
@@ -61,7 +84,6 @@ border: 0;
         
     }
 
-
      
 
 .mila__navbar-menu_container{
@@ -73,3 +95,16 @@ border: 0;
 
 
 
+
+@media screen and (max-width: 900px) { 
+    .mila__content {
+       
+        margin-top: 350px;
+    padding:7% 0;
+       
+         
+     }
+ 
+ 
+      
+}
