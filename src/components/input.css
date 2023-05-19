@@ -1,11 +1,34 @@
-
+.mila__input{
+    position: relative;
+display: inline-block;
+margin-left: 11px;
+}
 
 .mila__input input{
+    
     height: 60px;
     width: 270px;
     margin-top: 1px;
     border-radius:10px;
-    border: 2px solid #E5E5E5;
+    border: 1px solid #E5E5E5;
    outline: none;
+   
+}
+
+.mila__input button{
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    right: 8px;
+    z-index: 1;
+    border: 0;
+
+    top: 30px;
+    height: 25px;
+
+    cursor: pointer;
+    
+    font-family: var(--font-family);
+   
 }
 

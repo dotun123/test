@@ -5,11 +5,14 @@ align-items: center;
 height: 350px;
 width:300px;
 font-family: var(--font-family);
-box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+
 margin: auto;
 margin-top: 150px;
     border-radius: 25px;
-    background-color: hsl(221, 100%, 96%);
+     background-color: hsl(221, 100%, 96%);background: 
+linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); 
+;
+
 
 }
 
@@ -25,10 +28,11 @@ font-weight: 500;
 font-size: 18px;
 border: 0;
 cursor: pointer;
+margin-left: 16px;
 }
 
 .btn:hover{
-    background-color:var(--color-content);
+    background-color: #8a48d0 ;
 }
 
 
@@ -60,6 +64,7 @@ cursor: pointer;
 }
 
 
+
 .mila__content .card p{
    display: flex;
 width: 30%;
@@ -74,32 +79,29 @@ position: relative;
 
 
 
-@media (max-width: 900px) {
-    .mila__content {
-       position: relative;
-       z-index: -1;
-    
-        height: 100%;
-      
-        
-    }
 
-     
-
-.mila__navbar-menu_container{
-    position: absolute;
-    top: 20px;
-}
-
-}
-
-
-
+ 
 
 @media screen and (max-width: 900px) { 
     .mila__content {
-       
+      
         margin-top: 350px;
+    padding:7% 0;
+      height: 100%; 
+         
+     }
+ 
+ 
+      
+} 
+
+@media screen and (max-width: 650px) { 
+    .mila__content {
+       display:flex;
+       flex: 1;
+       flex-direction: column;
+
+        margin-top: 300px;
     padding:7% 0;
        
          
@@ -108,3 +110,6 @@ position: relative;
  
       
 }
+
+
+
